@@ -1,4 +1,4 @@
-package com.yang.IDataAPI;
+package com.yang;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
@@ -13,7 +13,7 @@ public class IDataAPIController {
     @RequestMapping("/")
     @ResponseBody
     String home() {
-        return "Hello World!";
+        return "Hello World!!";
     }
 
     public static void main(String[] args) throws Exception {

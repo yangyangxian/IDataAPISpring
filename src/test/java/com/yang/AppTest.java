@@ -1,4 +1,4 @@
-package com.yang.IDataAPI;
+package com.yang;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
